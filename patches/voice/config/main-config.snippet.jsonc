@@ -1,0 +1,13 @@
+// Фрагмент ~/.dsh/dsh-pet/main-config.jsonc после apply-gemini-voice.sh.
+// voiceEnabled намеренно не включается: скрипт его не трогает.
+{
+  "voiceEnabled": false,
+  "voiceName": "gemini:Aoede",
+  "voiceProvider": "gemini",
+  "voiceStyle": "auto",
+  "voiceFallback": "ru-RU-SvetlanaNeural",
+  "voiceVolume": 1,
+  "voiceWhisperEnabled": false,
+  "voiceTodoEnabled": false,
+  "voiceNotifyEnabled": false
+}

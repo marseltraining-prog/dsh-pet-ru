@@ -1,0 +1,13 @@
+*.bak*
+voice-cache/
+*.key
+keys*
+sandbox/
+backup/
+backups/
+.cache/
+logs/
+*.log
+.DS_Store
+__pycache__/
+.sim/

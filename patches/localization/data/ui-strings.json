@@ -1,0 +1,2232 @@
+{
+  "lib/client.js": [
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"仅网页\"",
+      "replace": "\"Только в браузере\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"仅桌面\"",
+      "replace": "\"Только на столе\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"两者\"",
+      "replace": "\"Везде\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"都不\"",
+      "replace": "\"Нигде\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"显示位置\"",
+      "replace": "\"Где показывать\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"更多\"",
+      "replace": "\"Ещё\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"余额档位\"",
+      "replace": "\"Уровни баланса\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"碎碎念\"",
+      "replace": "\"Бормотание\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"工作状态\"",
+      "replace": "\"Рабочий статус\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "[\"待机\", animations.idle]",
+      "replace": "[\"Ожидание\", animations.idle]",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "[\"转向\", animations.turn]",
+      "replace": "[\"Повороты\", animations.turn]",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "[\"拖拽\", animations.drag]",
+      "replace": "[\"Перетаскивание\", animations.drag]",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "[\"点击回应\", animations.clicks]",
+      "replace": "[\"Реакция на клик\", animations.clicks]",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "[\"移动\", animations.moves.actions.map((m) => m.name)]",
+      "replace": "[\"Передвижение\", animations.moves.actions.map((m) => m.name)]",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "label: \"动作\"",
+      "replace": "label: \"Действия\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/memes.ts",
+      "find": "\"纳入对话的配图\"",
+      "replace": "\"Картинки для чата\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/memes.ts",
+      "find": "\"其他\"",
+      "replace": "\"Другое\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/memes.ts",
+      "find": "\"配图\"",
+      "replace": "\"Картинки\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/pet/card/entry.ts",
+      "find": "\"起来\"",
+      "replace": "\"Проснуться\"",
+      "count": 2
+    },
+    {
+      "module": "src/client/pet/card/entry.ts",
+      "find": "\"睡觉\"",
+      "replace": "\"Спать\"",
+      "count": 2
+    },
+    {
+      "module": "src/client/pet/card/entry.ts",
+      "find": "\"查看余额\"",
+      "replace": "\"Показать баланс\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/pet/card/entry.ts",
+      "find": "\"待办事项\"",
+      "replace": "\"Задачи\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/pet/card/entry.ts",
+      "find": "\"碎碎念\"",
+      "replace": "\"Побормотать\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/pet/card/entry.ts",
+      "find": "\"对话\"",
+      "replace": "\"Чат\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/pet/card/entry.ts",
+      "find": "\"回到初始位置\"",
+      "replace": "\"Вернуть на место\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/pet/card/entry.ts",
+      "find": "\"显示位置\"",
+      "replace": "\"Где показывать\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hotkey.ts",
+      "find": "\"L 键\"",
+      "replace": "\"Клавиша L\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hotkey.ts",
+      "find": "\"S 键\"",
+      "replace": "\"Клавиша S\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/sleep-hotkey.ts",
+      "find": "\"Z 键\"",
+      "replace": "\"Клавиша Z\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/hotkey.ts",
+      "find": "\"D 键\"",
+      "replace": "\"Клавиша D\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-hold.ts",
+      "find": "\"M 键\"",
+      "replace": "\"Клавиша M\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/display-hotkey.ts",
+      "find": "String(index + 1) + \" 键\"",
+      "replace": "\"Клавиша \" + String(index + 1)",
+      "count": 1
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"对话完成\"",
+      "replace": "\"Ход завершён\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"生成失败\"",
+      "replace": "\"Ошибка генерации\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"输出被截断\"",
+      "replace": "\"Вывод обрезан\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"已达到输出 token 上限\"",
+      "replace": "\"Достигнут лимит токенов\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"正在申请权限\"",
+      "replace": "\"Запрос разрешения\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"工具「\"",
+      "replace": "\"Инструмент «\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"」\"",
+      "replace": "\"»\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"：\"",
+      "replace": "\" — \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"模型在等你回答\"",
+      "replace": "\"Модель ждёт ответа\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/notify.ts",
+      "find": "\"权限未授予（\"",
+      "replace": "\"Разрешение не выдано (\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/notify.ts",
+      "find": "\"）\"",
+      "replace": "\")\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/settings/notify-test.ts",
+      "find": "\"测试通知\"",
+      "replace": "\"Тестовое уведомление\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/settings/notify-test.ts",
+      "find": "\"【dsh-pet】系统通知已就绪。\"",
+      "replace": "\"[dsh-pet] Системные уведомления готовы.\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/whisper.ts",
+      "find": "\"当前对话未配置模型，碎碎念不可用\"",
+      "replace": "\"В текущем чате не выбрана модель — бормотание недоступно\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/whisper.ts",
+      "find": "\"碎碎念生成失败\"",
+      "replace": "\"Не удалось сгенерировать бормотание\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/view.ts",
+      "find": "\"当前服务商暂不支持余额查询\"",
+      "replace": "\"Провайдер не поддерживает запрос баланса\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/view.ts",
+      "find": "\"当前服务商：\"",
+      "replace": "\"Провайдер: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/view.ts",
+      "find": "\"缺少余额查询凭证\"",
+      "replace": "\"Нет учётных данных для баланса\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/view.ts",
+      "find": "\"余额查询失败\"",
+      "replace": "\"Не удалось получить баланс\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/money.ts",
+      "find": "\"余额 \"",
+      "replace": "\"Баланс \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/money.ts",
+      "find": "\"余额（\"",
+      "replace": "\"Баланс (\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/money.ts",
+      "find": "\"峰\"",
+      "replace": "\"пик\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/money.ts",
+      "find": "\"谷\"",
+      "replace": "\"спад\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/points.ts",
+      "find": "\"积分数据不可用\"",
+      "replace": "\"Данные о баллах недоступны\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/points.ts",
+      "find": "\"余额 \"",
+      "replace": "\"Баланс \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "weekly: \"周\"",
+      "replace": "weekly: \"неделя\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "monthly: \"月\"",
+      "replace": "monthly: \"месяц\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "\"已重置\"",
+      "replace": "\"сброшено\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "\" 天\"",
+      "replace": "\" дн.\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "\" 小时\"",
+      "replace": "\" ч\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "\"重置时间未知\"",
+      "replace": "\"Время сброса неизвестно\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "reset + \"重置\"",
+      "replace": "reset + \" до сброса\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "\"额度数据不可用\"",
+      "replace": "\"Данные о лимитах недоступны\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "w.label + \"额度已用 \" + Math.round(w.percent) + \"%\"",
+      "replace": "\"Использовано \" + Math.round(w.percent) + \"% (\" + w.label + \")\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "\" 入\"",
+      "replace": "\" вход.\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "\" 出\"",
+      "replace": "\" выход.\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "const period = \"本期 \" + u.requests + \" 次\";",
+      "replace": "const period = \"Период: \" + u.requests + \" запр.\";",
+      "count": 1
+    },
+    {
+      "module": "src/shared/score-popup.ts",
+      "find": "\"速度 \"",
+      "replace": "\"Скорость \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/score-popup.ts",
+      "find": "\" · 大小 \"",
+      "replace": "\" · размер \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"还没有待办。记一件要做的事，到点我会提醒你～\"",
+      "replace": "\"Пока пусто. Запишите дело — напомню вовремя.\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"待办事项\"",
+      "replace": "\"Задачи\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"0 项未完成\"",
+      "replace": "\"0 не выполнено\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"关闭待办面板\"",
+      "replace": "\"Закрыть панель задач\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"记一件要做的事…\"",
+      "replace": "\"Что нужно сделать…\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"待办内容\"",
+      "replace": "\"Текст задачи\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"添加\"",
+      "replace": "\"Добавить\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"离到期越近，我会提醒得越勤快～\"",
+      "replace": "\"Чем ближе срок, тем чаще напомню\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"标记未完成：\"",
+      "replace": "\"Отметить невыполненным: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"标记完成：\"",
+      "replace": "\"Отметить выполненным: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"删除：\"",
+      "replace": "\"Удалить: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"确认\"",
+      "replace": "\"Подтвердить\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "`${pending} 项未完成`",
+      "replace": "`${pending} не выполнено`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/panel.ts",
+      "find": "\"清单加载失败，关掉面板再开一次试试\"",
+      "replace": "\"Не удалось загрузить список — закройте и откройте панель\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/panel.ts",
+      "find": "\"这个时间已经过去了，换一个吧\"",
+      "replace": "\"Это время уже прошло, выберите другое\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/panel.ts",
+      "find": "\"加载中…\"",
+      "replace": "\"Загрузка…\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/api.ts",
+      "find": "\"响应不是 JSON\"",
+      "replace": "\"Ответ не JSON\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/api.ts",
+      "find": "\"请求被拒绝\"",
+      "replace": "\"Запрос отклонён\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/api.ts",
+      "find": "\"连不上桌宠服务：\"",
+      "replace": "\"Нет связи со службой питомца: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/api.ts",
+      "find": "\"响应里没有有效的待办\"",
+      "replace": "\"В ответе нет корректных задач\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "const WEEKDAYS = [\n\t\"周日\",\n\t\"周一\",\n\t\"周二\",\n\t\"周三\",\n\t\"周四\",\n\t\"周五\",\n\t\"周六\"\n];",
+      "replace": "const WEEKDAYS = [\n\t\"Вс\",\n\t\"Пн\",\n\t\"Вт\",\n\t\"Ср\",\n\t\"Чт\",\n\t\"Пт\",\n\t\"Сб\"\n];",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "\"无期限\"",
+      "replace": "\"Без срока\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "\"已完成\"",
+      "replace": "\"Выполнено\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "`已完成 · ${dueLabel(todo.dueAt, now)}`",
+      "replace": "`Выполнено · ${dueLabel(todo.dueAt, now)}`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "`${minutes}分钟`",
+      "replace": "`${minutes} мин`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "`${hours}小时`",
+      "replace": "`${hours} ч`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "`今天 ${clock}`",
+      "replace": "`Сегодня, ${clock}`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "`明天 ${clock}`",
+      "replace": "`Завтра, ${clock}`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "`后天 ${clock}`",
+      "replace": "`Послезавтра, ${clock}`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "`已逾期${spanText(now - dueAt)}`",
+      "replace": "`Просрочено: ${spanText(now - dueAt)}`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "`还剩${spanText(dueAt - now)}`",
+      "replace": "`Осталось: ${spanText(dueAt - now)}`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "const WEEK_HEAD = [\n\t\"一\",\n\t\"二\",\n\t\"三\",\n\t\"四\",\n\t\"五\",\n\t\"六\",\n\t\"日\"\n];",
+      "replace": "const WEEK_HEAD = [\n\t\"Пн\",\n\t\"Вт\",\n\t\"Ср\",\n\t\"Чт\",\n\t\"Пт\",\n\t\"Сб\",\n\t\"Вс\"\n];",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"无期限\"",
+      "replace": "\"Без срока\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"提醒时间（可选）\"",
+      "replace": "\"Время напоминания (необязательно)\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"选择提醒时间\"",
+      "replace": "\"Выбрать время напоминания\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"上个月\"",
+      "replace": "\"Прошлый месяц\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"下个月\"",
+      "replace": "\"Следующий месяц\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"今天\"",
+      "replace": "\"Сегодня\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"清除\"",
+      "replace": "\"Очистить\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"选择小时\"",
+      "replace": "\"Выбрать час\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"选择分钟\"",
+      "replace": "\"Выбрать минуту\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"完成\"",
+      "replace": "\"Готово\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "${value} ${isHour ? \"时\" : \"分\"}",
+      "replace": "${value} ${isHour ? \"ч\" : \"мин\"}",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"说点什么…\"",
+      "replace": "\"Напишите что-нибудь…\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"上传图片\"",
+      "replace": "\"Загрузить картинку\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"截取当前屏幕\"",
+      "replace": "\"Снимок экрана\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"按住说话\"",
+      "replace": "\"Удерживать для речи\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"已选图片\"",
+      "replace": "\"Выбранная картинка\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"移除图片\"",
+      "replace": "\"Убрать картинку\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"只支持 PNG / JPEG / WebP / GIF\"",
+      "replace": "\"Только PNG / JPEG / WebP / GIF\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"读图失败：\"",
+      "replace": "\"Не удалось прочитать картинку: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"截屏失败：\"",
+      "replace": "\"Не удалось сделать снимок: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"当前环境不支持截屏，先用上传试试\"",
+      "replace": "\"Снимок экрана здесь недоступен — попробуйте загрузить файл\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dialog.ts",
+      "find": "\"图片还在处理，稍等一下\"",
+      "replace": "\"Картинка ещё обрабатывается, секунду\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dialog.ts",
+      "find": "\"对话失败：\"",
+      "replace": "\"Ошибка чата: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dialog.ts",
+      "find": "\"对话异常：\"",
+      "replace": "\"Сбой чата: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/send.ts",
+      "find": "\"dsh-pet: 对话响应非法\"",
+      "replace": "\"dsh-pet: некорректный ответ чата\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/capture.ts",
+      "find": "\"当前环境不支持截屏\"",
+      "replace": "\"Снимок экрана здесь недоступен\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/encode.ts",
+      "find": "\"这个文件读不出来\"",
+      "replace": "\"Не удалось прочитать файл\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/chat/encode.ts",
+      "find": "\"这个文件解不出图片\"",
+      "replace": "\"Из файла не получается картинка\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/encode.ts",
+      "find": "\"无法压到预算内\"",
+      "replace": "\"Не удалось уложиться в лимит размера\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/encode.ts",
+      "find": "\"不是可发送的图片\"",
+      "replace": "\"Это не отправляемая картинка\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"当前地址不支持录音：用 https 或 localhost 打开才有麦克风\"",
+      "replace": "\"Запись недоступна по этому адресу: нужен https или localhost\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"这个入口没有接上识别地址\"",
+      "replace": "\"К этому входу не подключён адрес распознавания\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"这个宿主没开语音识别\"",
+      "replace": "\"В этом хосте распознавание речи выключено\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"音频没通过宿主校验\"",
+      "replace": "\"Аудио не прошло проверку хоста\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"识别请求失败：\"",
+      "replace": "\"Запрос распознавания не удался: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"识别失败：\"",
+      "replace": "\"Распознавание не удалось: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"未知原因\"",
+      "replace": "\"Причина неизвестна\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"识别中…\"",
+      "replace": "\"Распознаю…\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"没录到声音\"",
+      "replace": "\"Звук не записался\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"没听到声音，检查一下麦克风\"",
+      "replace": "\"Ничего не слышно, проверьте микрофон\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"没听清，再说一次\"",
+      "replace": "\"Не разобрала, повторите\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"录音出错：\"",
+      "replace": "\"Ошибка записи: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"正在打开麦克风…\"",
+      "replace": "\"Включаю микрофон…\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"打不开麦克风：\"",
+      "replace": "\"Не удалось включить микрофон: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/hear.ts",
+      "find": "\"识别响应不是 JSON\"",
+      "replace": "\"Ответ распознавания не JSON\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/pet/card/entry.ts",
+      "find": "\"截屏失败：\"",
+      "replace": "\"Не удалось сделать снимок: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"录音中 \"",
+      "replace": "\"Запись \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\" · 松开结束\"",
+      "replace": "\" · отпустите, чтобы закончить\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/chat/state.ts",
+      "find": "\"宠\"",
+      "replace": "\"Питомец\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/settings/avatar-upload.ts",
+      "find": "\"浏览器不支持缩放这张图\"",
+      "replace": "\"Браузер не может уменьшить эту картинку\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/settings/avatar-upload.ts",
+      "find": "\"上传失败（HTTP \"",
+      "replace": "\"Загрузка не удалась (HTTP \"",
+      "count": 1
+    },
+    {
+      "module": "src/client/settings/avatar-upload.ts",
+      "find": "\"上传失败\"",
+      "replace": "\"Загрузка не удалась\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"吃白饭\"",
+      "replace": "\"Поесть риса\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"开饭了——\"",
+      "replace": "\"Еда пришла!\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"白饭时间到！\"",
+      "replace": "\"Время риса!\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"饿了饿了饿了\"",
+      "replace": "\"Голодная, голодная!\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"等我下去……\"",
+      "replace": "\"Сейчас спущусь…\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"下面有饭香\"",
+      "replace": "\"Внизу пахнет едой\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"让一让，我下去了\"",
+      "replace": "\"Дай пройти, я вниз\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"饭呢？饭呢？\"",
+      "replace": "\"Где еда? Где еда?\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"快点快点\"",
+      "replace": "\"Быстрее, быстрее\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"……还没好吗\"",
+      "replace": "\"…ещё не готово?\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"掉下来了！\"",
+      "replace": "\"Падает!\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"接住！\"",
+      "replace": "\"Ловлю!\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"来了来了\"",
+      "replace": "\"Уже иду\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"碗饭最香\"",
+      "replace": "\"Из миски вкуснее\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"这个碗我要了\"",
+      "replace": "\"Эту миску забираю\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"再来一碗\"",
+      "replace": "\"Ещё миску\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"饭团饭团\"",
+      "replace": "\"Онигири, онигири\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"一口一个\"",
+      "replace": "\"Одно за другим\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"捏得刚好\"",
+      "replace": "\"Слеплено идеально\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"嗝——还能吃！\"",
+      "replace": "\"Ик… ещё могу!\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"这点不够塞牙缝\"",
+      "replace": "\"Этого мало\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/constants.ts",
+      "find": "\"再来十份\"",
+      "replace": "\"Ещё десять порций\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/show.ts",
+      "find": "\"点播失败：\"",
+      "replace": "\"Не удалось запустить: \"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/show.ts",
+      "find": "\"这一页找不到这只宠物\"",
+      "replace": "\"Питомец не найден на этой странице\"",
+      "count": 2
+    },
+    {
+      "module": "src/client/baifan/show.ts",
+      "find": "\"锁丢了，表演结束\"",
+      "replace": "\"Блокировка потеряна, сцена окончена\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/show.ts",
+      "find": "\"用户接管，已收场\"",
+      "replace": "\"Пользователь вмешался, сцена закрыта\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/show.ts",
+      "find": "\"重新开始\"",
+      "replace": "\"Начать заново\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/show.ts",
+      "find": "\"吃白饭 —— 开饭了\"",
+      "replace": "\"Рис — к столу!\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/lock.ts",
+      "find": "\"这只宠物没显示在网页里（display=\"",
+      "replace": "\"Питомец не отображается в вебе (display=\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/lock.ts",
+      "find": "\"取锁失败：\"",
+      "replace": "\"Не удалось захватить блокировку: \"",
+      "count": 2
+    },
+    {
+      "module": "src/client/baifan/lock.ts",
+      "find": "\"上一场还没收干净，等它过期…\"",
+      "replace": "\"Прошлая сцена ещё не закрылась, подождём…\"",
+      "count": 1
+    },
+    {
+      "module": "src/client/baifan/lock.ts",
+      "find": "\"宠物被别人占着，等会儿再试\"",
+      "replace": "\"Питомца занял кто-то другой, попробуйте позже\"",
+      "count": 1
+    }
+  ],
+  "lib/index.js": [
+    {
+      "module": "src/host/plugin/command-balance.ts",
+      "find": "\"手动触发桌宠余额显示（立即弹出余额气泡）\"",
+      "replace": "\"Показать баланс питомца (сразу всплывает пузырь с балансом)\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/plugin/command-chat.ts",
+      "find": "\"与桌宠对话：留空 = 碎碎念一句；输入消息 = 正常对话\"",
+      "replace": "\"Чат с питомцем: пусто = одна фраза-бормотание; текст = обычный диалог\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/plugin/command-pet.ts",
+      "find": "\"选择桌宠（/chat 对话的目标；支持选择框或手输 id/名字）\"",
+      "replace": "\"Выбрать питомца (цель /chat; можно выбрать из списка или ввести id/имя)\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/voice/voices.ts",
+      "find": "\"晓晓\"",
+      "replace": "\"Сяосяо\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/voice/voices.ts",
+      "find": "\"女 · 通用\"",
+      "replace": "\"жен. · универсальный\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/voice/voices.ts",
+      "find": "\"晓伊\"",
+      "replace": "\"Сяои\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/voice/voices.ts",
+      "find": "\"女 · 活泼\"",
+      "replace": "\"жен. · живой\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/voice/voices.ts",
+      "find": "\"云希\"",
+      "replace": "\"Юньси\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/voice/voices.ts",
+      "find": "\"男 · 年轻\"",
+      "replace": "\"муж. · молодой\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/voice/voices.ts",
+      "find": "\"云健\"",
+      "replace": "\"Юньцзянь\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/voice/voices.ts",
+      "find": "\"男 · 沉稳\"",
+      "replace": "\"муж. · спокойный\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/balance/index.ts",
+      "find": "\"余额查询超时（20 秒），请稍后重试\"",
+      "replace": "\"Запрос баланса не уложился в 20 секунд, попробуйте позже\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/balance/index.ts",
+      "find": "\"缺少凭证 \"",
+      "replace": "\"Нет учётных данных \"",
+      "count": 1
+    },
+    {
+      "module": "src/host/balance/index.ts",
+      "find": "\"缺少账号服务（\"",
+      "replace": "\"Нет сервиса аккаунта (\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/balance/providers/deepseek-account.ts",
+      "find": "\"dsh-pet: 账号未登录（deepseek-account）\"",
+      "replace": "\"dsh-pet: аккаунт не авторизован (deepseek-account)\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/balance/providers/deepseek-account.ts",
+      "find": "\"dsh-pet: 账号余额查询失败\"",
+      "replace": "\"dsh-pet: не удалось получить баланс аккаунта\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/balance/providers/deepseek-account.ts",
+      "find": "\"dsh-pet: 账号没有充值钱包余额\"",
+      "replace": "\"dsh-pet: у аккаунта нет баланса пополняемого кошелька\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/balance/providers/deepseek-account.ts",
+      "find": "\"dsh-pet: 账号钱包结构非法\"",
+      "replace": "\"dsh-pet: некорректная структура кошелька аккаунта\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/balance/providers/deepseek-account.ts",
+      "find": "\"dsh-pet: 缺少账号服务（\"",
+      "replace": "\"dsh-pet: нет сервиса аккаунта (\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/routes/chat.ts",
+      "find": "\"消息为空\"",
+      "replace": "\"Сообщение пустое\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/routes/chat.ts",
+      "find": "\"消息过长（限 2000 字）\"",
+      "replace": "\"Сообщение слишком длинное (лимит 2000 символов)\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/routes/chat.ts",
+      "find": "\"当前模式不支持图片（缺少附件服务）\"",
+      "replace": "\"В этом режиме картинки не поддерживаются (нет сервиса вложений)\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/routes/chat.ts",
+      "find": "\"附件服务未返回图片引用\"",
+      "replace": "\"Сервис вложений не вернул ссылку на картинку\"",
+      "count": 1
+    },
+    {
+      "module": "src/host/anim.ts",
+      "find": "\"没有这个动画：\"",
+      "replace": "\"Нет такой анимации: \"",
+      "count": 1
+    },
+    {
+      "module": "src/host/plugin/command-chat.ts",
+      "find": "\"[消息]（留空 = 碎碎念）\"",
+      "replace": "\"[сообщение] (пусто = бормотание)\"",
+      "count": 1
+    }
+  ],
+  "runtime/electron-helper/shared-core.js": [
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"仅网页\"",
+      "replace": "\"Только в браузере\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"仅桌面\"",
+      "replace": "\"Только на столе\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"两者\"",
+      "replace": "\"Везде\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"都不\"",
+      "replace": "\"Нигде\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"显示位置\"",
+      "replace": "\"Где показывать\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"更多\"",
+      "replace": "\"Ещё\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"余额档位\"",
+      "replace": "\"Уровни баланса\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"碎碎念\"",
+      "replace": "\"Бормотание\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "\"工作状态\"",
+      "replace": "\"Рабочий статус\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "[\"待机\", animations.idle]",
+      "replace": "[\"Ожидание\", animations.idle]",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "[\"转向\", animations.turn]",
+      "replace": "[\"Повороты\", animations.turn]",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "[\"拖拽\", animations.drag]",
+      "replace": "[\"Перетаскивание\", animations.drag]",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "[\"点击回应\", animations.clicks]",
+      "replace": "[\"Реакция на клик\", animations.clicks]",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "[\"移动\", animations.moves.actions.map((m) => m.name)]",
+      "replace": "[\"Передвижение\", animations.moves.actions.map((m) => m.name)]",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/tree.ts",
+      "find": "label: \"动作\"",
+      "replace": "label: \"Действия\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/memes.ts",
+      "find": "\"纳入对话的配图\"",
+      "replace": "\"Картинки для чата\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/memes.ts",
+      "find": "\"其他\"",
+      "replace": "\"Другое\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/menu/memes.ts",
+      "find": "\"配图\"",
+      "replace": "\"Картинки\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hotkey.ts",
+      "find": "\"L 键\"",
+      "replace": "\"Клавиша L\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hotkey.ts",
+      "find": "\"S 键\"",
+      "replace": "\"Клавиша S\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/sleep-hotkey.ts",
+      "find": "\"Z 键\"",
+      "replace": "\"Клавиша Z\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/hotkey.ts",
+      "find": "\"D 键\"",
+      "replace": "\"Клавиша D\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/display-hotkey.ts",
+      "find": "String(index + 1) + \" 键\"",
+      "replace": "\"Клавиша \" + String(index + 1)",
+      "count": 1
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"对话完成\"",
+      "replace": "\"Ход завершён\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"生成失败\"",
+      "replace": "\"Ошибка генерации\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"输出被截断\"",
+      "replace": "\"Вывод обрезан\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"已达到输出 token 上限\"",
+      "replace": "\"Достигнут лимит токенов\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"正在申请权限\"",
+      "replace": "\"Запрос разрешения\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"工具「\"",
+      "replace": "\"Инструмент «\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"」\"",
+      "replace": "\"»\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"：\"",
+      "replace": "\" — \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/notify.ts",
+      "find": "\"模型在等你回答\"",
+      "replace": "\"Модель ждёт ответа\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/whisper.ts",
+      "find": "\"当前对话未配置模型，碎碎念不可用\"",
+      "replace": "\"В текущем чате не выбрана модель — бормотание недоступно\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/whisper.ts",
+      "find": "\"碎碎念生成失败\"",
+      "replace": "\"Не удалось сгенерировать бормотание\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/view.ts",
+      "find": "\"当前服务商暂不支持余额查询\"",
+      "replace": "\"Провайдер не поддерживает запрос баланса\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/view.ts",
+      "find": "\"当前服务商：\"",
+      "replace": "\"Провайдер: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/view.ts",
+      "find": "\"缺少余额查询凭证\"",
+      "replace": "\"Нет учётных данных для баланса\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/view.ts",
+      "find": "\"余额查询失败\"",
+      "replace": "\"Не удалось получить баланс\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/money.ts",
+      "find": "\"余额 \"",
+      "replace": "\"Баланс \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/money.ts",
+      "find": "\"余额（\"",
+      "replace": "\"Баланс (\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/money.ts",
+      "find": "\"峰\"",
+      "replace": "\"пик\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/money.ts",
+      "find": "\"谷\"",
+      "replace": "\"спад\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/points.ts",
+      "find": "\"积分数据不可用\"",
+      "replace": "\"Данные о баллах недоступны\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/points.ts",
+      "find": "\"余额 \"",
+      "replace": "\"Баланс \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "weekly: \"周\"",
+      "replace": "weekly: \"неделя\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "monthly: \"月\"",
+      "replace": "monthly: \"месяц\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "\"已重置\"",
+      "replace": "\"сброшено\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "\" 天\"",
+      "replace": "\" дн.\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "\" 小时\"",
+      "replace": "\" ч\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "\"重置时间未知\"",
+      "replace": "\"Время сброса неизвестно\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "reset + \"重置\"",
+      "replace": "reset + \" до сброса\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "\"额度数据不可用\"",
+      "replace": "\"Данные о лимитах недоступны\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "w.label + \"额度已用 \" + Math.round(w.percent) + \"%\"",
+      "replace": "\"Использовано \" + Math.round(w.percent) + \"% (\" + w.label + \")\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "\" 入\"",
+      "replace": "\" вход.\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "\" 出\"",
+      "replace": "\" выход.\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/balance/handlers/windows.ts",
+      "find": "const period = \"本期 \" + u.requests + \" 次\";",
+      "replace": "const period = \"Период: \" + u.requests + \" запр.\";",
+      "count": 1
+    },
+    {
+      "module": "src/shared/score-popup.ts",
+      "find": "\"速度 \"",
+      "replace": "\"Скорость \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/score-popup.ts",
+      "find": "\" · 大小 \"",
+      "replace": "\" · размер \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"还没有待办。记一件要做的事，到点我会提醒你～\"",
+      "replace": "\"Пока пусто. Запишите дело — напомню вовремя.\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"待办事项\"",
+      "replace": "\"Задачи\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"0 项未完成\"",
+      "replace": "\"0 не выполнено\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"关闭待办面板\"",
+      "replace": "\"Закрыть панель задач\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"记一件要做的事…\"",
+      "replace": "\"Что нужно сделать…\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"待办内容\"",
+      "replace": "\"Текст задачи\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"添加\"",
+      "replace": "\"Добавить\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"离到期越近，我会提醒得越勤快～\"",
+      "replace": "\"Чем ближе срок, тем чаще напомню\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"标记未完成：\"",
+      "replace": "\"Отметить невыполненным: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"标记完成：\"",
+      "replace": "\"Отметить выполненным: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"删除：\"",
+      "replace": "\"Удалить: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "\"确认\"",
+      "replace": "\"Подтвердить\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/render.ts",
+      "find": "`${pending} 项未完成`",
+      "replace": "`${pending} не выполнено`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/panel.ts",
+      "find": "\"清单加载失败，关掉面板再开一次试试\"",
+      "replace": "\"Не удалось загрузить список — закройте и откройте панель\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/panel.ts",
+      "find": "\"这个时间已经过去了，换一个吧\"",
+      "replace": "\"Это время уже прошло, выберите другое\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/panel.ts",
+      "find": "\"加载中…\"",
+      "replace": "\"Загрузка…\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/api.ts",
+      "find": "\"响应不是 JSON\"",
+      "replace": "\"Ответ не JSON\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/api.ts",
+      "find": "\"请求被拒绝\"",
+      "replace": "\"Запрос отклонён\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/api.ts",
+      "find": "\"连不上桌宠服务：\"",
+      "replace": "\"Нет связи со службой питомца: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/api.ts",
+      "find": "\"响应里没有有效的待办\"",
+      "replace": "\"В ответе нет корректных задач\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "const WEEKDAYS = [\n\t\"周日\",\n\t\"周一\",\n\t\"周二\",\n\t\"周三\",\n\t\"周四\",\n\t\"周五\",\n\t\"周六\"\n];",
+      "replace": "const WEEKDAYS = [\n\t\"Вс\",\n\t\"Пн\",\n\t\"Вт\",\n\t\"Ср\",\n\t\"Чт\",\n\t\"Пт\",\n\t\"Сб\"\n];",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "\"无期限\"",
+      "replace": "\"Без срока\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "\"已完成\"",
+      "replace": "\"Выполнено\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "`已完成 · ${dueLabel(todo.dueAt, now)}`",
+      "replace": "`Выполнено · ${dueLabel(todo.dueAt, now)}`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "`${minutes}分钟`",
+      "replace": "`${minutes} мин`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "`${hours}小时`",
+      "replace": "`${hours} ч`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "`今天 ${clock}`",
+      "replace": "`Сегодня, ${clock}`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "`明天 ${clock}`",
+      "replace": "`Завтра, ${clock}`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "`后天 ${clock}`",
+      "replace": "`Послезавтра, ${clock}`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "`已逾期${spanText(now - dueAt)}`",
+      "replace": "`Просрочено: ${spanText(now - dueAt)}`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/format.ts",
+      "find": "`还剩${spanText(dueAt - now)}`",
+      "replace": "`Осталось: ${spanText(dueAt - now)}`",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "const WEEK_HEAD = [\n\t\"一\",\n\t\"二\",\n\t\"三\",\n\t\"四\",\n\t\"五\",\n\t\"六\",\n\t\"日\"\n];",
+      "replace": "const WEEK_HEAD = [\n\t\"Пн\",\n\t\"Вт\",\n\t\"Ср\",\n\t\"Чт\",\n\t\"Пт\",\n\t\"Сб\",\n\t\"Вс\"\n];",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"无期限\"",
+      "replace": "\"Без срока\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"提醒时间（可选）\"",
+      "replace": "\"Время напоминания (необязательно)\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"选择提醒时间\"",
+      "replace": "\"Выбрать время напоминания\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"上个月\"",
+      "replace": "\"Прошлый месяц\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"下个月\"",
+      "replace": "\"Следующий месяц\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"今天\"",
+      "replace": "\"Сегодня\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"清除\"",
+      "replace": "\"Очистить\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"选择小时\"",
+      "replace": "\"Выбрать час\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"选择分钟\"",
+      "replace": "\"Выбрать минуту\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "\"完成\"",
+      "replace": "\"Готово\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/todo/due-picker.ts",
+      "find": "${value} ${isHour ? \"时\" : \"分\"}",
+      "replace": "${value} ${isHour ? \"ч\" : \"мин\"}",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"说点什么…\"",
+      "replace": "\"Напишите что-нибудь…\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"上传图片\"",
+      "replace": "\"Загрузить картинку\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"截取当前屏幕\"",
+      "replace": "\"Снимок экрана\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"按住说话\"",
+      "replace": "\"Удерживать для речи\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"已选图片\"",
+      "replace": "\"Выбранная картинка\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"移除图片\"",
+      "replace": "\"Убрать картинку\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"只支持 PNG / JPEG / WebP / GIF\"",
+      "replace": "\"Только PNG / JPEG / WebP / GIF\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"读图失败：\"",
+      "replace": "\"Не удалось прочитать картинку: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"截屏失败：\"",
+      "replace": "\"Не удалось сделать снимок: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dom.ts",
+      "find": "\"当前环境不支持截屏，先用上传试试\"",
+      "replace": "\"Снимок экрана здесь недоступен — попробуйте загрузить файл\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dialog.ts",
+      "find": "\"图片还在处理，稍等一下\"",
+      "replace": "\"Картинка ещё обрабатывается, секунду\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dialog.ts",
+      "find": "\"对话失败：\"",
+      "replace": "\"Ошибка чата: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/dialog.ts",
+      "find": "\"对话异常：\"",
+      "replace": "\"Сбой чата: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/send.ts",
+      "find": "\"dsh-pet: 对话响应非法\"",
+      "replace": "\"dsh-pet: некорректный ответ чата\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/encode.ts",
+      "find": "\"这个文件读不出来\"",
+      "replace": "\"Не удалось прочитать файл\"",
+      "count": 2
+    },
+    {
+      "module": "src/shared/chat/encode.ts",
+      "find": "\"这个文件解不出图片\"",
+      "replace": "\"Из файла не получается картинка\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/encode.ts",
+      "find": "\"无法压到预算内\"",
+      "replace": "\"Не удалось уложиться в лимит размера\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/encode.ts",
+      "find": "\"不是可发送的图片\"",
+      "replace": "\"Это не отправляемая картинка\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"当前地址不支持录音：用 https 或 localhost 打开才有麦克风\"",
+      "replace": "\"Запись недоступна по этому адресу: нужен https или localhost\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"这个入口没有接上识别地址\"",
+      "replace": "\"К этому входу не подключён адрес распознавания\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"这个宿主没开语音识别\"",
+      "replace": "\"В этом хосте распознавание речи выключено\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"音频没通过宿主校验\"",
+      "replace": "\"Аудио не прошло проверку хоста\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"识别请求失败：\"",
+      "replace": "\"Запрос распознавания не удался: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"识别失败：\"",
+      "replace": "\"Распознавание не удалось: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"未知原因\"",
+      "replace": "\"Причина неизвестна\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"识别中…\"",
+      "replace": "\"Распознаю…\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"没录到声音\"",
+      "replace": "\"Звук не записался\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"没听到声音，检查一下麦克风\"",
+      "replace": "\"Ничего не слышно, проверьте микрофон\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"没听清，再说一次\"",
+      "replace": "\"Не разобрала, повторите\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"录音出错：\"",
+      "replace": "\"Ошибка записи: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"正在打开麦克风…\"",
+      "replace": "\"Включаю микрофон…\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"打不开麦克风：\"",
+      "replace": "\"Не удалось включить микрофон: \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/hear.ts",
+      "find": "\"识别响应不是 JSON\"",
+      "replace": "\"Ответ распознавания не JSON\"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\"录音中 \"",
+      "replace": "\"Запись \"",
+      "count": 1
+    },
+    {
+      "module": "src/shared/chat/hear-control.ts",
+      "find": "\" · 松开结束\"",
+      "replace": "\" · отпустите, чтобы закончить\"",
+      "count": 1
+    }
+  ],
+  "runtime/electron-helper/index.html": [
+    {
+      "module": null,
+      "find": "<html lang=\"zh-CN\">",
+      "replace": "<html lang=\"ru\">",
+      "count": 1
+    },
+    {
+      "module": null,
+      "find": "<title>dsh-pet 桌宠（桌面模式）</title>",
+      "replace": "<title>dsh-pet — питомец (настольный режим)</title>",
+      "count": 1
+    }
+  ],
+  "runtime/electron-helper/sprite/menu.js": [
+    {
+      "module": null,
+      "find": "'打开软件'",
+      "replace": "'Открыть приложение'",
+      "count": 1
+    },
+    {
+      "module": null,
+      "find": "'打开 AI 设置'",
+      "replace": "'Открыть настройки ИИ'",
+      "count": 1
+    },
+    {
+      "module": null,
+      "find": "'打开网站'",
+      "replace": "'Открыть сайт'",
+      "count": 1
+    },
+    {
+      "module": null,
+      "find": "'查看余额'",
+      "replace": "'Показать баланс'",
+      "count": 1
+    },
+    {
+      "module": null,
+      "find": "'待办事项'",
+      "replace": "'Задачи'",
+      "count": 1
+    },
+    {
+      "module": null,
+      "find": "'碎碎念'",
+      "replace": "'Побормотать'",
+      "count": 1
+    },
+    {
+      "module": null,
+      "find": "'对话'",
+      "replace": "'Чат'",
+      "count": 1
+    },
+    {
+      "module": null,
+      "find": "'睡觉'",
+      "replace": "'Спать'",
+      "count": 1
+    },
+    {
+      "module": null,
+      "find": "'起来'",
+      "replace": "'Проснуться'",
+      "count": 1
+    },
+    {
+      "module": null,
+      "find": "'重载配置'",
+      "replace": "'Перезагрузить конфиг'",
+      "count": 1
+    },
+    {
+      "module": null,
+      "find": "'回到初始位置'",
+      "replace": "'Вернуть на место'",
+      "count": 1
+    }
+  ],
+  "runtime/electron-helper/main/tray.js": [
+    {
+      "module": null,
+      "find": "{ label: '退出', click: quitApp }",
+      "replace": "{ label: 'Выход', click: quitApp }",
+      "count": 1
+    },
+    {
+      "module": null,
+      "find": "tray.setToolTip('dsh-pet 桌面宠物')",
+      "replace": "tray.setToolTip('dsh-pet — питомец')",
+      "count": 1
+    }
+  ],
+  "runtime/electron-helper/renderer.js": [
+    {
+      "module": null,
+      "find": "'dsh-pet 配置错误：'",
+      "replace": "'dsh-pet: ошибка конфигурации: '",
+      "count": 1
+    },
+    {
+      "module": null,
+      "find": "' 超出桌面宠物列表（共 '",
+      "replace": "' вне списка питомцев (всего '",
+      "count": 1
+    },
+    {
+      "module": null,
+      "find": "' 只），本窗口不创建宠物'",
+      "replace": "'), это окно не создаёт питомца'",
+      "count": 1
+    },
+    {
+      "module": null,
+      "find": "'配置加载失败：'",
+      "replace": "'Не удалось загрузить конфиг: '",
+      "count": 1
+    }
+  ],
+  "runtime/electron-helper/sprite.js": [
+    {
+      "module": null,
+      "find": "'Cmd+左键'",
+      "replace": "'Cmd + ЛКМ'",
+      "count": 1
+    },
+    {
+      "module": null,
+      "find": "'Ctrl+左键'",
+      "replace": "'Ctrl + ЛКМ'",
+      "count": 1
+    }
+  ]
+}
