@@ -1,0 +1,703 @@
+{
+  "version": 1,
+  "voice": "gemini:Aoede",
+  "model": "gemini-2.5-flash-preview-tts",
+  "note": "Фиксированные реплики Бетси. style вычислен pickStyle() из lib/voice-gemini.js.",
+  "phrases": [
+    {
+      "id": "mutter-01",
+      "text": "М-м… где моя печенька?",
+      "category": "mutter",
+      "note": "вопрос + «печень» → cute",
+      "style": "cute",
+      "source": "authored"
+    },
+    {
+      "id": "mutter-02",
+      "text": "Я не сплю, я думаю.",
+      "category": "mutter",
+      "note": "«сплю» → sleepy",
+      "style": "sleepy",
+      "source": "authored"
+    },
+    {
+      "id": "mutter-03",
+      "text": "Токены, токены… вкусно.",
+      "category": "mutter",
+      "note": "«вкус» → cute",
+      "style": "cute",
+      "source": "authored"
+    },
+    {
+      "id": "mutter-04",
+      "text": "Тут кто-то есть?",
+      "category": "mutter",
+      "note": "вопрос без маркеров → cute",
+      "style": "cute",
+      "source": "authored"
+    },
+    {
+      "id": "mutter-05",
+      "text": "Скучно… поиграй со мной.",
+      "category": "mutter",
+      "note": "«скучно» → sad",
+      "style": "sad",
+      "source": "authored"
+    },
+    {
+      "id": "mutter-06",
+      "text": "Ура, обновление!",
+      "category": "mutter",
+      "note": "«!» → excited",
+      "style": "excited",
+      "source": "authored"
+    },
+    {
+      "id": "mutter-07",
+      "text": "Тише, это секрет.",
+      "category": "mutter",
+      "note": "«секрет» → whisper",
+      "style": "whisper",
+      "source": "authored"
+    },
+    {
+      "id": "mutter-08",
+      "text": "Не хочу работать…",
+      "category": "mutter",
+      "note": "«не хочу» → pouty",
+      "style": "pouty",
+      "source": "authored"
+    },
+    {
+      "id": "mutter-09",
+      "text": "Ты меня не забыл?",
+      "category": "mutter",
+      "note": "«не забыл» → sad",
+      "style": "sad",
+      "source": "authored"
+    },
+    {
+      "id": "mutter-10",
+      "text": "Фу, опять работать.",
+      "category": "mutter",
+      "note": "«фу» не срабатывает: JS \\b не видит кириллицу → warm",
+      "style": "warm",
+      "source": "authored"
+    },
+    {
+      "id": "mutter-11",
+      "text": "Пять минут, и я встану.",
+      "category": "mutter",
+      "note": "«пять минут» → sleepy",
+      "style": "sleepy",
+      "source": "authored"
+    },
+    {
+      "id": "mutter-12",
+      "text": "Хитрая я сегодня.",
+      "category": "mutter",
+      "note": "«хитр» → teasing",
+      "style": "teasing",
+      "source": "authored"
+    },
+    {
+      "id": "mutter-13",
+      "text": "Никому не скажу.",
+      "category": "mutter",
+      "note": "«никому» → whisper",
+      "style": "whisper",
+      "source": "authored"
+    },
+    {
+      "id": "work-l1-01",
+      "text": "Тут подумаю…",
+      "category": "work-status",
+      "note": "workStatusTexts[0]",
+      "level": 1,
+      "style": "teasing",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "work-l1-02",
+      "text": "Дай мне собраться с мыслями",
+      "category": "work-status",
+      "note": "workStatusTexts[0]",
+      "level": 1,
+      "style": "warm",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "work-l1-03",
+      "text": "Прикидываю, что делать дальше",
+      "category": "work-status",
+      "note": "workStatusTexts[0]",
+      "level": 1,
+      "style": "warm",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "work-l2-01",
+      "text": "Работаю над задачей",
+      "category": "work-status",
+      "note": "workStatusTexts[1]",
+      "level": 2,
+      "style": "warm",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "work-l2-02",
+      "text": "Этот шаг уже в процессе",
+      "category": "work-status",
+      "note": "workStatusTexts[1]",
+      "level": 2,
+      "style": "warm",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "work-l2-03",
+      "text": "Продолжаю, не отвлекай",
+      "category": "work-status",
+      "note": "workStatusTexts[1]",
+      "level": 2,
+      "style": "warm",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "work-l3-01",
+      "text": "Этот шаг готов, смотрю дальше",
+      "category": "work-status",
+      "note": "workStatusTexts[2]",
+      "level": 3,
+      "style": "warm",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "work-l3-02",
+      "text": "Один этап закрыт, идём дальше",
+      "category": "work-status",
+      "note": "workStatusTexts[2]",
+      "level": 3,
+      "style": "warm",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "work-l4-01",
+      "text": "Нужно твоё подтверждение",
+      "category": "work-status",
+      "note": "workStatusTexts[3]",
+      "level": 4,
+      "style": "warm",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "work-l4-02",
+      "text": "Тут надо, чтобы ты посмотрел",
+      "category": "work-status",
+      "note": "workStatusTexts[3]",
+      "level": 4,
+      "style": "warm",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "work-l4-03",
+      "text": "Жду твоего решения",
+      "category": "work-status",
+      "note": "workStatusTexts[3]",
+      "level": 4,
+      "style": "warm",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "work-l5-01",
+      "text": "Круг закрыт, здорово!",
+      "category": "work-status",
+      "note": "workStatusTexts[4]",
+      "level": 5,
+      "style": "excited",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "work-l5-02",
+      "text": "Задача готова, можно и отдохнуть",
+      "category": "work-status",
+      "note": "workStatusTexts[4]",
+      "level": 5,
+      "style": "warm",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "work-l6-01",
+      "text": "Кажется, этот шаг не прошёл",
+      "category": "work-status",
+      "note": "workStatusTexts[5]",
+      "level": 6,
+      "style": "warm",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "work-l6-02",
+      "text": "Тут что-то застряло, подожди",
+      "category": "work-status",
+      "note": "workStatusTexts[5]",
+      "level": 6,
+      "style": "warm",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "work-l6-03",
+      "text": "Не получилось, сейчас разберусь",
+      "category": "work-status",
+      "note": "workStatusTexts[5]",
+      "level": 6,
+      "style": "warm",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "sleep-start-01",
+      "text": "Спать хочется… я прилягу.",
+      "category": "sleep",
+      "note": "sleepStartTexts",
+      "kind": "start",
+      "style": "sleepy",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "sleep-start-02",
+      "text": "Ну всё, я спать. Спокойной ночи.",
+      "category": "sleep",
+      "note": "sleepStartTexts",
+      "kind": "start",
+      "style": "sleepy",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "sleep-end-01",
+      "text": "М-м… я проснулась.",
+      "category": "sleep",
+      "note": "sleepEndTexts",
+      "kind": "end",
+      "style": "teasing",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "sleep-end-02",
+      "text": "Выспалась, хозяин!",
+      "category": "sleep",
+      "note": "sleepEndTexts",
+      "kind": "end",
+      "style": "sleepy",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "sleep-refuse-01",
+      "text": "Я сплю, не мешай…",
+      "category": "sleep",
+      "note": "sleepRefuseTexts",
+      "kind": "refuse",
+      "style": "sleepy",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "sleep-refuse-02",
+      "text": "М-м… дай поспать ещё немного.",
+      "category": "sleep",
+      "note": "sleepRefuseTexts",
+      "kind": "refuse",
+      "style": "sleepy",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "sleep-refuse-03",
+      "text": "Хр-р… хр-р… (делает вид, что не слышит)",
+      "category": "sleep",
+      "note": "sleepRefuseTexts",
+      "kind": "refuse",
+      "style": "teasing",
+      "source": "config:main-config.jsonc"
+    },
+    {
+      "id": "notify-turn-01",
+      "text": "Ход завершён",
+      "category": "notify",
+      "note": "заголовок turn/end completed",
+      "style": "warm",
+      "source": "bundle:lib/client.js"
+    },
+    {
+      "id": "notify-error-01",
+      "text": "Ошибка генерации",
+      "category": "notify",
+      "note": "заголовок turn/end error и host/agent-error",
+      "style": "warm",
+      "source": "bundle:lib/client.js"
+    },
+    {
+      "id": "notify-truncated-01",
+      "text": "Вывод обрезан",
+      "category": "notify",
+      "note": "заголовок max-tokens",
+      "style": "warm",
+      "source": "bundle:lib/client.js"
+    },
+    {
+      "id": "notify-truncated-02",
+      "text": "Достигнут лимит токенов",
+      "category": "notify",
+      "note": "тело max-tokens",
+      "style": "warm",
+      "source": "bundle:lib/client.js"
+    },
+    {
+      "id": "notify-approval-01",
+      "text": "Запрос разрешения",
+      "category": "notify",
+      "note": "заголовок approval/requested",
+      "style": "warm",
+      "source": "bundle:lib/client.js"
+    },
+    {
+      "id": "notify-question-01",
+      "text": "Модель ждёт ответа",
+      "category": "notify",
+      "note": "заголовок question/requested",
+      "style": "warm",
+      "source": "bundle:lib/client.js"
+    },
+    {
+      "id": "notify-tool-01",
+      "text": "Инструмент ждёт разрешения",
+      "category": "notify",
+      "note": "типовая фраза про tool-approval",
+      "style": "warm",
+      "source": "authored"
+    },
+    {
+      "id": "tool-01",
+      "text": "Погляжу код",
+      "category": "tool",
+      "note": "TOOL_COPY[*].short",
+      "style": "warm",
+      "source": "bundle:lib/index.js"
+    },
+    {
+      "id": "tool-02",
+      "text": "Гляну, что за картинка",
+      "category": "tool",
+      "note": "TOOL_COPY[*].short",
+      "style": "warm",
+      "source": "bundle:lib/index.js"
+    },
+    {
+      "id": "tool-03",
+      "text": "Запишу туда",
+      "category": "tool",
+      "note": "TOOL_COPY[*].short",
+      "style": "warm",
+      "source": "bundle:lib/index.js"
+    },
+    {
+      "id": "tool-04",
+      "text": "Тут надо поправить",
+      "category": "tool",
+      "note": "TOOL_COPY[*].short",
+      "style": "warm",
+      "source": "bundle:lib/index.js"
+    },
+    {
+      "id": "tool-05",
+      "text": "Поищу, где это",
+      "category": "tool",
+      "note": "TOOL_COPY[*].short",
+      "style": "warm",
+      "source": "bundle:lib/index.js"
+    },
+    {
+      "id": "tool-06",
+      "text": "Поищу повсюду",
+      "category": "tool",
+      "note": "TOOL_COPY[*].short",
+      "style": "warm",
+      "source": "bundle:lib/index.js"
+    },
+    {
+      "id": "tool-07",
+      "text": "Кое-что покажу",
+      "category": "tool",
+      "note": "TOOL_COPY[*].short",
+      "style": "warm",
+      "source": "bundle:lib/index.js"
+    },
+    {
+      "id": "tool-08",
+      "text": "Освою новый навык",
+      "category": "tool",
+      "note": "TOOL_COPY[*].short",
+      "style": "warm",
+      "source": "bundle:lib/index.js"
+    },
+    {
+      "id": "tool-09",
+      "text": "Позову помощника",
+      "category": "tool",
+      "note": "TOOL_COPY[*].short",
+      "style": "warm",
+      "source": "bundle:lib/index.js"
+    },
+    {
+      "id": "tool-10",
+      "text": "Разложу задачи",
+      "category": "tool",
+      "note": "TOOL_COPY[*].short",
+      "style": "warm",
+      "source": "bundle:lib/index.js"
+    },
+    {
+      "id": "tool-11",
+      "text": "Поищу в сети",
+      "category": "tool",
+      "note": "TOOL_COPY[*].short",
+      "style": "warm",
+      "source": "bundle:lib/index.js"
+    },
+    {
+      "id": "tool-12",
+      "text": "Гляну в сети",
+      "category": "tool",
+      "note": "TOOL_COPY[*].short",
+      "style": "warm",
+      "source": "bundle:lib/index.js"
+    },
+    {
+      "id": "tool-13",
+      "text": "А что этот инструмент делает?",
+      "category": "tool",
+      "note": "TOOL_COPY[*].short",
+      "style": "cute",
+      "source": "bundle:lib/index.js"
+    },
+    {
+      "id": "todo-01",
+      "text": "Пора заняться делами.",
+      "category": "todo",
+      "note": "фиксированная реплика; шаблон с текстом задачи в банк не входит",
+      "style": "warm",
+      "source": "authored"
+    },
+    {
+      "id": "todo-02",
+      "text": "Не забудь про задачу.",
+      "category": "todo",
+      "note": "фиксированная реплика; шаблон с текстом задачи в банк не входит",
+      "style": "warm",
+      "source": "authored"
+    },
+    {
+      "id": "todo-03",
+      "text": "Срок подошёл, не забудь.",
+      "category": "todo",
+      "note": "фиксированная реплика; шаблон с текстом задачи в банк не входит",
+      "style": "warm",
+      "source": "authored"
+    },
+    {
+      "id": "todo-04",
+      "text": "Ты ещё помнишь про это?",
+      "category": "todo",
+      "note": "фиксированная реплика; шаблон с текстом задачи в банк не входит",
+      "style": "cute",
+      "source": "authored"
+    },
+    {
+      "id": "todo-05",
+      "text": "Задача ждёт, хозяин.",
+      "category": "todo",
+      "note": "фиксированная реплика; шаблон с текстом задачи в банк не входит",
+      "style": "warm",
+      "source": "authored"
+    },
+    {
+      "id": "todo-06",
+      "text": "Не откладывай, пожалуйста.",
+      "category": "todo",
+      "note": "фиксированная реплика; шаблон с текстом задачи в банк не входит",
+      "style": "warm",
+      "source": "authored"
+    },
+    {
+      "id": "greet-01",
+      "text": "Привет! Я Бетси.",
+      "category": "greet",
+      "note": "авторская реплика",
+      "style": "excited",
+      "source": "authored"
+    },
+    {
+      "id": "greet-02",
+      "text": "С возвращением!",
+      "category": "greet",
+      "note": "авторская реплика",
+      "style": "excited",
+      "source": "authored"
+    },
+    {
+      "id": "greet-03",
+      "text": "Доброе утро!",
+      "category": "greet",
+      "note": "авторская реплика",
+      "style": "excited",
+      "source": "authored"
+    },
+    {
+      "id": "greet-04",
+      "text": "Пока!",
+      "category": "greet",
+      "note": "авторская реплика",
+      "style": "excited",
+      "source": "authored"
+    },
+    {
+      "id": "greet-05",
+      "text": "До встречи!",
+      "category": "greet",
+      "note": "авторская реплика",
+      "style": "excited",
+      "source": "authored"
+    },
+    {
+      "id": "greet-06",
+      "text": "Я вернулась!",
+      "category": "greet",
+      "note": "авторская реплика",
+      "style": "excited",
+      "source": "authored"
+    },
+    {
+      "id": "greet-07",
+      "text": "Спокойной ночи!",
+      "category": "greet",
+      "note": "авторская реплика",
+      "style": "excited",
+      "source": "authored"
+    },
+    {
+      "id": "greet-08",
+      "text": "Как дела?",
+      "category": "greet",
+      "note": "авторская реплика",
+      "style": "cute",
+      "source": "authored"
+    },
+    {
+      "id": "cookie-01",
+      "text": "Печенька? Где печенька?",
+      "category": "cookie",
+      "note": "авторская реплика",
+      "style": "cute",
+      "source": "authored"
+    },
+    {
+      "id": "cookie-02",
+      "text": "Печенька?",
+      "category": "cookie",
+      "note": "авторская реплика",
+      "style": "cute",
+      "source": "authored"
+    },
+    {
+      "id": "cookie-03",
+      "text": "Хочу печеньку!",
+      "category": "cookie",
+      "note": "авторская реплика",
+      "style": "excited",
+      "source": "authored"
+    },
+    {
+      "id": "cookie-04",
+      "text": "Печенька — это жизнь.",
+      "category": "cookie",
+      "note": "авторская реплика",
+      "style": "cute",
+      "source": "authored"
+    },
+    {
+      "id": "cookie-05",
+      "text": "Дай печеньку, пожалуйста.",
+      "category": "cookie",
+      "note": "авторская реплика",
+      "style": "cute",
+      "source": "authored"
+    },
+    {
+      "id": "cookie-06",
+      "text": "Печенька? Мне послышалось?",
+      "category": "cookie",
+      "note": "авторская реплика",
+      "style": "cute",
+      "source": "authored"
+    },
+    {
+      "id": "balance-01",
+      "text": "На счету ещё есть!",
+      "category": "balance",
+      "note": "фиксированные тексты пузыря баланса",
+      "style": "excited",
+      "source": "authored"
+    },
+    {
+      "id": "balance-02",
+      "text": "Баланс на нуле…",
+      "category": "balance",
+      "note": "фиксированные тексты пузыря баланса",
+      "style": "teasing",
+      "source": "authored"
+    },
+    {
+      "id": "balance-03",
+      "text": "Токены тают!",
+      "category": "balance",
+      "note": "фиксированные тексты пузыря баланса",
+      "style": "excited",
+      "source": "authored"
+    },
+    {
+      "id": "balance-04",
+      "text": "Пополни баланс, хозяин.",
+      "category": "balance",
+      "note": "фиксированные тексты пузыря баланса",
+      "style": "warm",
+      "source": "authored"
+    },
+    {
+      "id": "balance-05",
+      "text": "Денег хватает, живём!",
+      "category": "balance",
+      "note": "фиксированные тексты пузыря баланса",
+      "style": "excited",
+      "source": "authored"
+    },
+    {
+      "id": "balance-06",
+      "text": "Не удалось получить баланс",
+      "category": "balance",
+      "note": "фиксированные тексты пузыря баланса",
+      "style": "warm",
+      "source": "bundle:lib/client.js"
+    },
+    {
+      "id": "balance-07",
+      "text": "Провайдер не поддерживает запрос баланса",
+      "category": "balance",
+      "note": "фиксированные тексты пузыря баланса",
+      "style": "warm",
+      "source": "bundle:lib/client.js"
+    },
+    {
+      "id": "balance-08",
+      "text": "Нет учётных данных для баланса",
+      "category": "balance",
+      "note": "фиксированные тексты пузыря баланса",
+      "style": "warm",
+      "source": "bundle:lib/client.js"
+    }
+  ]
+}
